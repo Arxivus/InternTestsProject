@@ -1,0 +1,39 @@
+:root {
+  /* 
+    fc - font color 
+    bg - background
+    br - border
+    fs - font-size
+  */
+  
+  --primary-fc: ;
+  --secondary-fc: ;
+  --accent-fc: ;
+  
+
+  --primary-bg: ;
+  --secondary-bg: ;
+  --accent-bg: ;
+
+  --primary-br: ;
+  --secondary-br: ;
+  --accent-br: ;
+
+  --fs-big: ;
+  --fs-medium: ;
+  --fs-regular: ;
+  --fs-small: ;
+
+  --primary-br-radius: ;
+  --secondary-br-radius: ;
+
+}
+
+p {
+  margin: 0;
+}
+
+/* @media (max-width: 1024px) {
+    font-size: 20px;
+} */
+
