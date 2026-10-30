@@ -11,22 +11,29 @@
   --accent-fc: ;
   
 
-  --primary-bg: ;
-  --secondary-bg: ;
-  --accent-bg: ;
+  --primary-bg: #FFFFFF;
+  --secondary-bg: #D9D9D9;
+  --accent-bg: #B3B3B3;
 
   --primary-br: ;
   --secondary-br: ;
   --accent-br: ;
 
-  --fs-big: ;
-  --fs-medium: ;
-  --fs-regular: ;
-  --fs-small: ;
+  --fs-big: 20px;
+  --fs-medium: 16px;
+  --fs-regular: 14px;
+  --fs-small: 11px;
+
+  --fs-h1: 32px;
+  --fs-h3: 20px;
 
   --primary-br-radius: ;
   --secondary-br-radius: ;
 
+}
+
+body {
+  font-family: Inter, sans-serif;
 }
 
 p {
