@@ -4,16 +4,10 @@ import Main from '../src/pages/Main/Main'
 import TestConstructor from '../src/pages/TestConstructor/TestConstructor'
 import Register from '../src/pages/registration/Register/Register'
 import Login from '../src/pages/registration/Login/Login'
+import TestResult from "./pages/TestResult/TestResult"
+import { AppRoutes } from "./const/const"
 
-const AppRoutes = {
-  'Main': '/',
-  'Login': '/login',
-  'Register': '/register',
-  'Profile': '/profile',
-  'TestConstructor': '/constructor',
-  'Tests': '/tests'
 
-}
 
 const App = () => {
 
@@ -24,6 +18,7 @@ const App = () => {
         <Route path={AppRoutes.Login} element={<Login />} />
         <Route path={AppRoutes.Register} element={<Register />} />
         <Route path={AppRoutes.TestConstructor} element={<TestConstructor />} />
+        <Route path={AppRoutes.TestResult} element={<TestResult />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>

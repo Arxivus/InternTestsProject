@@ -1,0 +1,28 @@
+.parametersForm {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid var(--primary-br-c);
+    border-radius: var(--secondary-br-radius);
+
+    h3 {
+        margin-bottom: 12px;
+    }
+
+    .testSettings,
+    .parameters {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .textParams {
+        flex-wrap: nowrap;
+    }
+
+    .textParams div {
+        width: 100%;
+        height: max-content;
+    }
+}

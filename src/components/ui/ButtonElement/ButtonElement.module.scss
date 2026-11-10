@@ -1,0 +1,19 @@
+
+.btn {
+    padding: 14px 18px;
+    border-radius: var(--primary-br-radius);
+    font-size: var(--fs-medium);
+    font-weight: 600;
+    border: none;
+}
+
+.colored {
+    color: #FFFFFF;
+    background-color: var(--btn-bg-primary);
+}
+
+.outlined {
+    color: var(--primary-fc);
+    outline: 1px solid #CCCCCC;
+    background-color: var(--btn-bg-secondary);
+}

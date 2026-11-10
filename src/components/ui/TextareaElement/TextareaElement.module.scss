@@ -1,0 +1,33 @@
+.textareaContainer {
+    max-width: 509px;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    label {
+        font-size: var(--fs-regular);
+        font-weight: 600;
+    }
+
+    textarea {
+        padding: 10px 12px;
+        border: 1px solid var(--primary-br-c);
+        border-radius: var(--primary-br-radius);
+        font-size: var(--fs-regular);
+        line-height: 1.15;
+    }
+
+    div {
+        padding: 0;
+    }
+
+    fieldset {
+        border: none;
+    }
+
+    .tip {
+        color: var(--secondary-fc);
+        font-size: 12px;
+    }
+}

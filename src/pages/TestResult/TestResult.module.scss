@@ -1,0 +1,49 @@
+body {
+    background-color: var(--primary-bg);
+}
+
+.testResult {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 40px;
+
+    .title {}
+
+    .resultInfo {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px;
+        border: 1px solid var(--primary-br-c);
+        border-radius: var(--secondary-br-radius);
+
+        span {
+            display: inline-block;
+            margin-bottom: 10px;
+            color: var(--secondary-fc);
+            font-size: var(--fs-medium);
+        }
+
+        .resultPoints {
+            display: flex;
+            gap: 24px;
+
+            .pointsBlock {
+                width: max-content;
+                padding: 14px 116px;
+                border: 1px solid var(--primary-br-c);
+                border-radius: 12px;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+
+        .message {
+            padding: 20px;
+            border: 1px solid var(--primary-br-c);
+            border-radius: var(--secondary-br-radius);
+            font-size: var(--fs-medium);
+        }
+    }
+}
